@@ -1,3 +1,3 @@
-﻿int a =3;
-int b =6;
+﻿double a =13;
+double b =6;
 Console.Write(a / b);

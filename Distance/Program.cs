@@ -9,5 +9,5 @@ Console.WriteLine("Введите координату X");
 int x2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите координату Y");
 int y2 = Convert.ToInt32(Console.ReadLine());
-double distance = Math.Sqrt((x1-x2)*(x1-x2) + (y1-y2)*(y1-y2));
+double distance = Math.Sqrt(Math.Pow((x1-x2),2) + Math.Pow((y1-y2),2));
 Console.WriteLine(distance);
